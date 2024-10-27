@@ -5,5 +5,9 @@ total=$(echo "$(df -BG --output=size . | tr -dc '0-9'| cut -c 2-)GB")
 percent=$(echo "$(df --output=pcent . | tr -dc '0-9')%")
 available=$(echo "$(df -BG --output=avail . | tr -dc '0-9')GB")
 
-echo "$used/$total ($percent Used | $available Free)"
+case $BUTTON in
+    1) notify-send "$percent Used | $available Free" ;;
+esac
+
+echo "$used/$total"
 

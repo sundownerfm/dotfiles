@@ -6,7 +6,7 @@ https://suckless.org/atom.xml
 
 " "
 "---People---"
-https://limn.wiki/index.xml
+https://stonefish.me/posts.xml
 https://lukesmith.xyz/index.xml "yt"
 https://blog.randy.gg/feed.rss "yt"
 https://swindlesmccoop.xyz/rss.xml "yt"
@@ -30,4 +30,4 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA "yt
 
 " "	
 "---Testing---"
-http://localhost:8000/index.xml
+http://localhost:8000/posts.xml

@@ -1,6 +1,8 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+vim.api.nvim_command("nnoremap ,o o<Esc>");
+
 -- force myself to use vim moitons :P
 
 -- vim.api.nvim_command("cnoremap <Up> <Nop>");
